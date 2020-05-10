@@ -27,7 +27,7 @@ class CategoryController extends Controller
     {
 	    $categories = $this->category->paginate(10);
 
-	    return view('admin.categories.index', compact('categoriessssssss'));
+	    return view('admin.categories.index', compact('categories'));
     }
 
     /**
